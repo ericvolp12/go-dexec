@@ -1,4 +1,4 @@
-# dexec [![GoDoc](https://godoc.org/github.com/ahmetalpbalkan/dexec?status.png)][godoc]
+# dexec [![GoDoc](https://godoc.org/github.com/ericvolp12/dexec?status.png)][godoc]
 
 
 `dexec` is a small Go library allowing you to run processes inside 
@@ -10,7 +10,7 @@ expensive parts of your program to a remote fleet of Docker engines.
 Its interface is [strikingly similar][godoc] to [`os/exec`][osexec].
 
 [osexec]: https://godoc.org/os/exec
-[godoc]: https://godoc.org/github.com/ahmetalpbalkan/dexec
+[godoc]: https://godoc.org/github.com/ericvolp12/dexec
 
 ### Examples
 
@@ -36,7 +36,7 @@ package main
 import (
 	"log"
 
-	"github.com/ahmetalpbalkan/dexec"
+	dexec "github.com/ericvolp12/go-dexec"
 	"github.com/fsouza/go-dockerclient"
 )
 
@@ -77,5 +77,3 @@ in a container and gives you a cleaner interface you are already familiar with.
 [Check out more examples →](examples)
 
 [Read more →](https://ahmetalpbalkan.com/blog/dexec/)
-
-![Analytics](https://ga-beacon.appspot.com/UA-45321252-5/welcome-page)

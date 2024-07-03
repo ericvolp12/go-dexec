@@ -1,8 +1,9 @@
-module github.com/ahmetb/go-dexec
+module github.com/ericvolp12/go-dexec
 
 go 1.22.2
 
 require (
+	github.com/ahmetb/go-dexec v0.0.0-20240429060713-f13091af5825
 	github.com/fsouza/go-dockerclient v1.11.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 )
